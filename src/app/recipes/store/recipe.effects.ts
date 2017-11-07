@@ -1,5 +1,5 @@
-import { Injectable } from "@angular/core";
 import { HttpClient, HttpRequest } from "@angular/common/http";
+import { Injectable } from "@angular/core";
 import { Effect, Actions } from "@ngrx/effects";
 import { Store } from "@ngrx/store";
 import 'rxjs/add/operator/switchMap';
@@ -7,7 +7,7 @@ import 'rxjs/add/operator/withLatestFrom';
 
 import * as RecipeActions from '../store/recipe.actions';
 import * as fromRecipe from '../store/recipe.reducers';
-import { Recipe } from "app/recipes/recipe.model";
+import { Recipe } from "../recipe.model";
 
 @Injectable()
 export class RecipeEffects {

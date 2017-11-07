@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 import { Store } from '@ngrx/store';
-// import { Store } from '@ngrx/store/src/store';
 
 import { Recipe } from '../recipe.model';
 import * as fromRecipe from '../store/recipe.reducers';

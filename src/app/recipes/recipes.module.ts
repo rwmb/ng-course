@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 
-import { recipeReducer } from 'app/recipes/store/recipe.reducers';
-import { RecipeEffects } from 'app/recipes/store/recipe.effects';
+import { recipeReducer } from './store/recipe.reducers';
+import { RecipeEffects } from './store/recipe.effects';
 import { RecipesComponent } from './recipes.component';
 import { RecipeStartComponent } from './recipe-start/recipe-start.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';

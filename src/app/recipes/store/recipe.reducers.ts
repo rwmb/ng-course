@@ -1,6 +1,6 @@
 
-import { Recipe } from "app/recipes/recipe.model";
-import { Ingredient } from "app/shared/ingredient.model";
+import { Recipe } from "../recipe.model";
+import { Ingredient } from "../../shared/ingredient.model";
 import * as RecipeActions from './recipe.actions';
 import * as fromApp from '../../store/app.reducers';
 
